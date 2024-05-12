@@ -1,0 +1,45 @@
+body {
+    background-image: url(../img/Background.jpg);
+}
+
+.container {
+    display: flex;
+    place-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+    place-items: center;
+    height: 100vh;
+}
+
+.board
+{
+    width: 600px;
+    height: 600px;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    border: 2px solid #000;
+}
+
+.square
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000;
+}
+
+.White
+{
+    background-color: #f0d9b5;
+}
+
+.Black
+{
+    background-color: #b58863;
+}
+
+.btn {
+    width: 100px;
+    height: 20px;
+}
